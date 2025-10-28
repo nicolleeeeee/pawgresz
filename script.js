@@ -7,7 +7,6 @@ window.addEventListener("load", function()
   }, 2500); 
 });
 
-// Pet name interaction
 document.getElementById("enterBtn").addEventListener("click", function() {
   const nameInput = document.getElementById("petName").value.trim();
   const petGreeting = document.getElementById("petGreeting");
