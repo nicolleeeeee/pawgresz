@@ -53,7 +53,6 @@ body {
   position: relative;
 }
 
-/* Wink eye overlay */
 .wink-eye {
   position: absolute;
   top: 35px;
@@ -66,7 +65,6 @@ body {
   transform: scaleY(0);
 }
 
-/* Wink animation */
 @keyframes wink {
   0% { opacity: 0; transform: scaleY(0); }
   10% { opacity: 1; transform: scaleY(1); }
